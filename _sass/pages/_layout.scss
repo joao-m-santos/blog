@@ -31,9 +31,10 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: $text-color;
     font-size: 1.75em;
     text-transform: lowercase;
+    text-decoration: none;
   }
   .author_job {
     display: block;
@@ -63,10 +64,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $primary;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: $secondary;
         }
       }
     }
@@ -90,10 +91,10 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $primary;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: $secondary;
       }
     }
   }

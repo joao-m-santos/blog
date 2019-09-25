@@ -16,7 +16,14 @@
     overflow-y: scroll;
     position: initial;
     top: 0;
+    padding-right: 20%;
   }
+}
+
+.post-listing-end {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.5;
 }
 
 .image-credit {
@@ -46,7 +53,8 @@ section.post {
 
 // Post title
 .post-title {
-
+  font-size: 24px;
+  margin-bottom: 0;
 }
 
 .post-title-link {
@@ -72,7 +80,7 @@ section.post {
 	}
   .post-cat {
 		text-transform: uppercase;
-		color: $warning;
+		color: $primary;
 	}
   .read-time {
     color: $primary;
