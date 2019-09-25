@@ -20,6 +20,24 @@
 .cover-card {
   color: $text-color;
   padding: 0 30px;
+  .author_avatar {
+    position: relative;
+    .author_forhire {
+        position: absolute;
+        display: inline-block;
+        top: -32px;
+        padding: 2px 4px;
+        color: #fff;
+        background-color: $danger;
+        font-size: 0.8em;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 4px;
+        @include media-query($medium-screen) {
+            right: 0;
+        }
+      }
+  }
   .avatar {
     border-radius: 50%;
     width: 100px;
@@ -30,11 +48,22 @@
     }
   }
   .author_name {
+    @include media-query($medium-screen) {
+        position: relative;
+        right: -3px;
+    }
     display: block;
+    margin: auto {
+      top: 12px;
+    }
     color: $text-color;
     font-size: 1.75em;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-decoration: none;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    letter-spacing: .1em;
+    opacity: .75;
   }
   .author_job {
     display: block;

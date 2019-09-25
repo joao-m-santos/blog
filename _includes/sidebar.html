@@ -3,7 +3,12 @@
 <div class="cover-card table-cell table-middle">
   {% if author.avatar %}
   <a href="{{ site.url }}/">
-    <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+    <div class="author_avatar">
+        {% if author.forhire %}
+          <div class="author_forhire">Up for hire!</div>
+        {% endif %}
+        <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
+    </div>
   </a>
   {% endif %}
   <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>

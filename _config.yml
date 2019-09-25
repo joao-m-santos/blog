@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Joao Santos
+title: JOAO | Blog
 email: jm_santos7@hotmail.com
 description: A creator's blog.
 url: https://joao-m-santos.github.io/blog
@@ -44,11 +44,12 @@ kramdown:
 ####################################
 #
 owner:
-    name: Joao Santos
+    name: JOAO
     avatar: avatar.jpg
     job: "Web developer | Creator"
     bio: "Welcome to my blog.<br />I write articles on code and ideas I have."
     email: jm_santos7@hotmail.com
+    forhire: true
     disqus-shortname:
     twitter: #username
     facebook: #username
