@@ -3,7 +3,7 @@ layout: post
 title: "Wanted: Motivation"
 excerpt: "Throughout my life I&#39;ve met many people who were interested in learning how to code, but were somewhat lost and didn&#39;t know where to begin, and that made them lose motivation and forfeit their goal of picking up their first programming language. Understand why this happens and how to fight back."
 categories: [thoughts, learning, web development]
-tags: [motivation, developer, something]
+tags: [motivation, learning, development]
 comments: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Creating libraries as you go"
 excerpt: "Every time you are coding something new, you're creating resources that can be re-usable in the future. Instead of copying and pasting all those code bits between your projects, you can create libraries of your own code that will considerably decrease the development time."
 categories: [libraries, web development, tips]
-tags: [developer, something]
+tags: [libraries, documentation]
 comments: true
 ---
 
