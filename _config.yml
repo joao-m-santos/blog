@@ -6,7 +6,7 @@
 title: JOAO | Blog
 email: jm_santos7@hotmail.com
 description: A creator's blog.
-url: https://joao-m-santos.github.io/blog
+url: https://blog.joaosantos.dev
 keywords:
     [
         "blog",
@@ -49,7 +49,7 @@ owner:
     job: "Web developer | Creator"
     bio: "Welcome to my blog.<br />I write articles on code and ideas I have."
     email: jm_santos7@hotmail.com
-    forhire: true
+    forhire: false
     disqus-shortname:
     twitter: #username
     facebook: #username
